@@ -1,7 +1,7 @@
 class gotCharacter {
   series;
 
-  constructor(name, family, age, status) {
+  constructor(name, family, age) {
     this.name = name;
     this.family = family;
     this.age = age;
