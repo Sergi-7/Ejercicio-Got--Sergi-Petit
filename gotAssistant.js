@@ -1,7 +1,3 @@
 import gotCharacter from "./gotCharacter";
 
-class gotAssistant extends gotCharacter {
-  constructor() {
-    super();
-  }
-}
+class gotAssistant extends gotCharacter {}
