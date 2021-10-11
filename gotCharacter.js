@@ -1,7 +1,7 @@
 class gotCharacter {
   series;
 
-  constructor(name, family, age, status) {
+  constructor(name, family, age) {
     this.name = name;
     this.family = family;
     this.age = age;
@@ -16,26 +16,4 @@ class gotCharacter {
   }
 }
 
-class gotKing extends gotCharacter {
-  constructor() {
-    super();
-  }
-}
-
-class gotFighter extends gotCharacter {
-  constructor() {
-    super();
-  }
-}
-
-class gotAssistant extends gotCharacter {
-  constructor() {
-    super();
-  }
-}
-
-class gotShieldbearer extends gotCharacter {
-  constructor() {
-    super();
-  }
-}
+export default gotCharacter;
