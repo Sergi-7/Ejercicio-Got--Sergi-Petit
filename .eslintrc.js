@@ -14,5 +14,8 @@ module.exports = {
     "consistent-return": "off",
     "no-debugger": "off",
     "no-console": "off",
+    "class-method-use-this": "off",
+    "lines-between-class-members" : "off",
+    "import/extensions"
   },
 };
