@@ -16,26 +16,4 @@ class gotCharacter {
   }
 }
 
-class gotKing extends gotCharacter {
-  constructor() {
-    super();
-  }
-}
-
-class gotFighter extends gotCharacter {
-  constructor() {
-    super();
-  }
-}
-
-class gotAssistant extends gotCharacter {
-  constructor() {
-    super();
-  }
-}
-
-class gotShieldbearer extends gotCharacter {
-  constructor() {
-    super();
-  }
-}
+export default gotCharacter;

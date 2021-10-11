@@ -1,6 +1,6 @@
 import gotCharacter from "./gotCharacter";
 
-class gotKing extends gotCharacter {
+class gotShieldbearer extends gotCharacter {
   constructor() {
     super();
   }
